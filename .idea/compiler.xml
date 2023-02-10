@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="geteway-service" />
+        <module name="student-service" />
+        <module name="eureka-discovery" />
+      </profile>
+      <profile name="Annotation profile for course-service" enabled="true">
+        <sourceOutputDir name="../../ProjetJeeFinalMSKeyclock-main/course-service/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../../ProjetJeeFinalMSKeyclock-main/course-service/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="course-service" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="course-service" target="17" />
+      <module name="eureka-discovery" target="17" />
+      <module name="geteway-service" target="17" />
+      <module name="student-service" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="course-service" options="-parameters" />
+      <module name="eureka-discovery" options="-parameters" />
+      <module name="geteway-service" options="-parameters" />
+      <module name="student-service" options="-parameters" />
+    </option>
+  </component>
+</project>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ProjetJeeFinalMSKeyclock-main/course-service/course-service.iml" filepath="$PROJECT_DIR$/ProjetJeeFinalMSKeyclock-main/course-service/course-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ProjetJeeFinalMSKeyclock-main/eureka-discovery/eureka-discovery.iml" filepath="$PROJECT_DIR$/ProjetJeeFinalMSKeyclock-main/eureka-discovery/eureka-discovery.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ProjetJeeFinalMSKeyclock-main/geteway-service/geteway-service.iml" filepath="$PROJECT_DIR$/ProjetJeeFinalMSKeyclock-main/geteway-service/geteway-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/jeeproject.iml" filepath="$PROJECT_DIR$/.idea/jeeproject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ProjetJeeFinalMSKeyclock-main/student-service/student-service.iml" filepath="$PROJECT_DIR$/ProjetJeeFinalMSKeyclock-main/student-service/student-service.iml" />
+    </modules>
+  </component>
+</project>
